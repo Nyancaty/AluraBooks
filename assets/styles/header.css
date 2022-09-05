@@ -1,0 +1,234 @@
+ .cabecalho {
+    display: flex;
+    height: 80px;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 18px 0px;
+}
+.container__esquerda {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__menu-hamburguer {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background: url(/assets/img/Menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+/* JS */
+.fundo{
+    width: 80px;
+    height: 80px;
+    background: url(/assets/img/Frame20.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cabecalho__logo {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-left: 6px;
+}   
+.menu {
+    display: none;
+}
+/* Menu mobile, 1024, desktop */
+.active {
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+box-sizing: border-box;
+
+
+position: absolute;
+left: 0px;
+top: 80px;
+height: 340px;
+width: 65vw;
+z-index: 10000000;
+padding: 24px 24px;
+background-color: var(--branco);
+box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+.menu_1024 {
+    display:none;
+}
+
+
+@media screen and (min-width: 1024px) { 
+    .cabecalho__menu-hamburguer {
+        position: initial;
+    }
+
+    .container__categorias {
+        position: relative;
+    }
+    .container__categorias:hover {
+        cursor: pointer;
+    }
+
+    .active {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+
+    padding: 0;
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    height: 300px;
+    width: 180px;;
+    z-index: 10000000;
+    background-color: var(--branco);
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    .active li {
+        flex-grow: 1;
+        height: 100%;
+        align-items: center;
+        text-decoration: none;
+        color: var(--azul);
+        text-transform: uppercase;
+    }
+    
+    .active li:hover {
+        background-color: var(--azul-degrade);
+      
+    }
+
+}
+
+.active li{
+    display:flex;  
+}
+
+.active a{
+    text-decoration: none;
+    color: var(--azul);
+    text-transform: uppercase;
+}
+
+.active__titulo{
+    font-weight: 700;
+    color: var(--laranja);
+}
+
+.container__ux {
+    padding: 0px 24px;
+}
+
+.container_image {
+    margin-right: 16px; 
+    width: 100%;
+}
+
+
+.container__titulo, .container__categorias,
+.container__texto {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        padding: 0 1em;
+    }
+/* on click não finalizado (mudança no background, conflito com JS) não achei solução ainda */
+    .container__categorias {
+        height: 80px;
+        align-items: center;
+    }
+
+    /* hover não finalizado */
+    .menu_1024--item:hover {
+        background: var(--azul-degrade);
+        width: 100%;
+        height: 100%;
+        color: var(--branco);
+    }
+
+    .container__ux {
+        padding-right: 32px;
+
+        display: flex; 
+        align-items: center;
+    }
+
+    .container__titulo, .container__titulo--negrito {
+        display: inline-block;
+        font-family: var(--fonte-secundario);
+        font-size: 30px;
+        font-weight: 400;
+        padding: 25px 0 20px 0;
+        margin-left: 10px;
+    }
+    
+    .container__titulo--negrito {
+        font-weight: 700;
+    }
+
+    .container__categorias {
+        display: flex;
+        text-transform: uppercase;  
+        
+    }
+    
+    .container__categorias li {
+        text-decoration: none;
+        color: var( --preto);
+        margin-left: 32px;
+    }
+   
+    .container__categorias--item a{
+        font-family: var(--fonte-principal);
+        font-size: 16px;
+    }
+
+   .container__perfil {
+    margin-left: 16px;
+   }
+
+    .container__favoritos, .cabecalho__menu-hamburguer {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) { 
+  
+.cabecalho {
+    padding: 0 80px;
+
+}
+.container__categorias {
+    margin-right: auto;
+}
+
+.container__ux a {
+    text-decoration: none;
+    color: var( --preto);
+    padding-right: 0;
+    width: auto;
+}
+.container__texto{
+    display: inline-block;
+    margin-left: .5em;
+}
+
+.container__compras {
+    display: flex;
+    align-items: center;
+}
+
+.container__perfil {
+    display: flex;
+    align-items: center;
+}
+}
