@@ -9,7 +9,7 @@ https://www.alura.com.br/">Alura</a> ministrado pela instrutora Mônica Hillman 
 <p style="margin: 4em 0 1.5em 0"> Antes de começarmos a apresentação do projeto de fato, é de<b> extrema importância</b> que esclareca algumas coisinhas a respeito do projeto, ok? </p>
 
 # Proposta e Desenvolvimento
-<img src="./assets/img/readme.gif" alt="readme gif" title="Readme">
+<img src="https://github.com/Nyancaty/AluraBooks/blob/1db85aae7076c6894a0390b02e72608eea339a04/readme.gif" alt="readme gif" title="Readme">
 
 <p style="margin: 3em 0 1.2em 0"> O projeto foi elaborado à partir de uma apresentação de design realizada no <a href="https://www.figma.com/file/dqmR0CGUPlS0QuicSe09Av/AluraBooks-(Copy)?node-id=122%3A4916">Figma</a> com a proposta de que pudessemos transcrever o design apresentado para um projeto fiel esteticamente, ficando, nesse primeiro momento, alheio às funcionalidades que um projeto completo, naturalmente, dispõe!</p>
 
