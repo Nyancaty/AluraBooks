@@ -6,7 +6,7 @@ https://www.alura.com.br/">Alura</a> ministrado pela instrutora Mônica Hillman 
 
 <p style="text-align:center; line-height: 1.2em">com muito prazer, disponho em meu portfólio como parte importantíssima de meu desenvolvimento e amadurecimento como dev!
 
-<p style="margin: 4em 0 1.5em 0"> Antes de começarmos a apresentação do projeto de fato, é de<b> extrema importância</b> que esclareca algumas coisinhas a respeito do projeto, ok? </p>
+<p style="margin: 4em 0 1.5em 0"> Antes de começarmos a apresentação do projeto de fato, é de<b> extrema importância</b> que eu esclareca algumas coisinhas a respeito do projeto, ok? </p>
 
 # Proposta e Desenvolvimento
 <img src="https://github.com/Nyancaty/AluraBooks/blob/1db85aae7076c6894a0390b02e72608eea339a04/readme.gif" alt="readme gif" title="Readme">
